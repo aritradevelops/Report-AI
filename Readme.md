@@ -59,4 +59,4 @@ If you're using a Unix-based system and want to convert `.docx` files to `.pdf`,
 ### Note for macOS Users
 
 Converting to PDF may not work on macOS if there's no active Office instance running. Ensure you have the necessary dependencies installed or consider using the Gotenberg approach if you're on a Unix-like system.
-![Please give it a star if it helps you ](https://media.pinatafarm.com/protected/B183D0EF-49B8-47BF-A523-E72FD0CFFAAC/sad-thumbs-up-cat.3.meme.webp)
+![Please give it a star if it helps you ](https://c.tenor.com/m-yQtJJxhK0AAAAC/tenor.gif)
