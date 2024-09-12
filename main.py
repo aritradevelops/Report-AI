@@ -1,8 +1,9 @@
 import os
-from utils import task, ai, cover, md_to_html, html_to_doc
+from utils import task, ai, cover, md_to_html, html_to_doc,doc_to_pdf
 from colorama import init, Fore, Style
+from docx2pdf import convert as docx_to_pdf
 
-# Initialize colorama for Windows compatibility
+# Initialize colorama for colored logs
 init(autoreset=True)
 
 def read_tasks(file_path):
@@ -77,5 +78,8 @@ def generate_pdfs(task_file='task.json', cache_dir='./cache', doc_dir='./docs'):
         print(f"{Fore.YELLOW}Processing task {i+1}/{len(tasks)}...")
         process_task(t, cache_dir, doc_dir)
 
+
+
 if __name__ == '__main__':
     generate_pdfs()
+    doc_to_pdf.convert_docs_to_pdfs()

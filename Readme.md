@@ -45,5 +45,18 @@ To set up the project and make the script executable:
 
 This will configure the environment and install any necessary dependencies.
 
+### PDF Conversion on Unix-Based Systems
 
+If you're using a Unix-based system and want to convert `.docx` files to `.pdf`, you need to run a **Gotenberg instance** locally via Docker. Here are the steps to do so:
+
+1. Ensure Docker is installed on your system.
+2. Run the following command to start the Gotenberg container:
+   ```bash
+   docker run --rm -p 3000:3000 gotenberg/gotenberg:8
+   ```
+3. The script will send a request to the local Gotenberg instance for converting `.docx` to `.pdf`.
+
+### Note for macOS Users
+
+Converting to PDF may not work on macOS if there's no active Office instance running. Ensure you have the necessary dependencies installed or consider using the Gotenberg approach if you're on a Unix-like system.
 ![Please give it a star if it helps you ](https://media.pinatafarm.com/protected/B183D0EF-49B8-47BF-A523-E72FD0CFFAAC/sad-thumbs-up-cat.3.meme.webp)
