@@ -44,3 +44,6 @@ To set up the project and make the script executable:
    ```
 
 This will configure the environment and install any necessary dependencies.
+
+
+![Please give it a star if it helps you ](https://media.pinatafarm.com/protected/B183D0EF-49B8-47BF-A523-E72FD0CFFAAC/sad-thumbs-up-cat.3.meme.webp)
