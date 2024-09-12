@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# To run this file you have to do chmod +x setup.sh
+# To run this file you have to do chmod +x setup.sh.
 
 mkdir docs
 mkdir pdfs
