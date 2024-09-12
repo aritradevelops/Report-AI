@@ -28,7 +28,7 @@ def generate_pdfs():
   print("Converting ai provided data to docs format...")
   html = md_to_html.convert(res)
   html_to_doc.convert_and_add(html,doc)
-  doc.save(f'./docs/{t['Name']}_CA2.docx')
+  doc.save(f'./docs/{t['Name']}_{t['Subject']}.docx')
   print("Doc File generated successfully for task %s" % (i+1))
 
 if(__name__ == '__main__'):
