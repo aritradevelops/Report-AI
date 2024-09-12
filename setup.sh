@@ -1,4 +1,4 @@
-#! /usr/bin/bash
+#!/usr/bin/env bash
 
 # To run this file you have to do chmod +x setup.sh
 
