@@ -6,7 +6,7 @@ mkdir docs
 mkdir pdfs
 mkdir cache
 cp task.example.json task.json
-pip install docx htmldocx markdown2 docx_to_pdf
+pip3 install docx htmldocx markdown2 docx2pdf ollama colorama
 
 echo "All necessary packages installed successfully."
 
