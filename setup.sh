@@ -12,5 +12,6 @@ echo "All necessary packages installed successfully."
 
 echo "Please implement your ai model at ./utils/ai.py"
 echo "Mention your task defintion at ./task.json"
+echo "Tweak the gap property to control the gap between the topic name and other information so that it does not overflow"
 
 echo "Boom! You are ready to go"
